@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gaurav Fitness Club</title>
+    <link rel="stylesheet" href="python_backend.css">
+    <style>
+        /* css reset */
+
+        body {
+            /* background: url("kettlebell-3293475_1280.jpg"); */
+            background: url("kettlebell-3293475_1920.jpg");
+            margin: 0px;
+            padding: 0px;
+            height: 1200px
+        }
+
+        .left {
+            /* I'm a left */
+            position: absolute;
+            display: inline-block;
+            font-family: "cursive";
+            margin: -10px;
+            left: 20px;
+            top: 20px;
+            color: whitesmoke;
+
+        }
+
+        .left img {
+            width: 150px;
+            height: 100px;
+            font-family: "cursive";
+            display: inline-block;
+            filter: invert(100%);
+
+        }
+
+        .left div {
+            text-align: center;
+            font-family: cursive;
+            font-size: 18px;
+
+            /* background-color: black; */
+
+
+        }
+
+
+        .mid {
+            /* I'm a mid */
+            display: block;
+            width: 40%;
+            color: whitesmoke;
+            /* margin: 35px 20px; */
+            border-radius: 20px;
+            top: 20px;
+            margin: 12px auto;
+            /* border: 3px solid whitesmoke; */
+        }
+
+        .right {
+            /* I'm a right */
+            position: absolute;
+            right: 33px;
+            top: 20px;
+            color: whitesmoke;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .btn {
+            color: whitesmoke;
+            font-family: cursive;
+            border-radius: 5px;
+            margin: 12px 12px;
+            /* padding: 4px 4px 4px 4px; */
+            padding: auto;
+            border: 2px solid whitesmoke;
+            background-color: black;
+            margin: auto;
+
+        }
+
+        .btn:hover {
+            color: rosybrown;
+            text-decoration: underline;
+            cursor: pointer;
+            /* background-color: gray; */
+
+        }
+
+        .navbar {
+            /* margin: auto; */
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 16px;
+            font-family: cursive;
+            /* width: 500px; */
+            margin: 3px 5px 3px 20px;
+
+        }
+
+        .navbar li a {
+            color: whitesmoke;
+            text-decoration: none;
+
+        }
+
+        .navbar li a:hover {
+            color: rosybrown;
+            text-decoration: underline;
+        }
+
+        .container {
+            text-align: center;
+            border-radius: 15px;
+            color: whitesmoke;
+            border: 2px solid white;
+            margin: 80px;
+            width: 400px;
+            height: 320PX;
+        }
+
+        .container :hover {
+            color: rosybrown;
+        }
+
+        .from-group input {
+            font-size: 12px;
+            font-family: cursive;
+            margin: auto;
+            margin: 10px 20px 10px 80px;
+            width: 200px;
+
+            text-align: center;
+            display: block;
+
+            padding: 10px;
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+        }
+
+        h2 {
+            font-family: cursive;
+        }
+    </style>
+
+</head>
+<link rel="stylesheet" href="gym.css">
+
+<body>
+    <!-- <h1>Welcome To The Gaurav Fitness Club...</h1> -->
+    <header class="header">
+
+        <div class="left">
+            <!-- left box for logo -->
+            <!-- This is left side -->
+            <img src="dumble logo png.webp" alt="">
+            <div> Gaurav Fitness </div>
+        </div>
+
+        <div class="mid">
+            <!-- mid box for navigation bar  -->
+            <!-- This is my mid  -->
+            <ul class="navbar">
+                <li><a href="#" class=" active">HOME</a></li>
+                <li><a href="#">ABOUT US </a></li>
+                <li><a href="#">FITNESS EQUIPMENTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <!-- right box for buttons -->
+            <!-- This is right -->
+            <button class="btn">CALL US</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <!-- im a container -->
+        <h2>JOIN OUR FITNESS CLUB </h2>
+        <form action="python backend.css">
+
+            <div class="from-group">
+                <input type="text" name=" " placeholder="Enter Your Name Here">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name=" " placeholder="Enter Your Gender ">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name=" " placeholder="Enter Your Age">
+            </div>
+
+            <div class="from-group">
+                <input type="text" name=" " placeholder="Enter Your Locality">
+            </div>
+            <!-- <div class="btn"> -->
+            <input type="button" value="SUBMIT">
+    </div>
+    </form>
+
+
+    </div>
+</body>
+
+</html>
